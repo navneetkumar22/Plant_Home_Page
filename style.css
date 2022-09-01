@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eef5ee;
+}
+
+/* Navigation Bar */
+
+#navbarMonstera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    padding: 22px 2px;
+}
+
+#navFirst{
+   display: block;
+   position: absolute;
+   left: 40px;
+}
+
+#navMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+#navMid h4{
+    font-size: 20px;
+    font-family: 'Allerta', sans-serif;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+#navMid div:first-child h4{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#navEnd{
+    display: flex;
+    position: absolute;
+    right: 60px;
+    gap: 20px;
+}
+
+/* Body Right Side */
+
+/* Image */
+
+#imgMain{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 250px;
+    width: 45%;
+}
+
+/* Left Side */
+
+#midWholePart11{
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+}
+
+h1#monstera{
+    font-size: 85px;
+    font-weight: bold;
+    font-family: 'Allerta', sans-serif;
+}
+
+#midWholePart11 div ul li{
+    font-size: medium;
+    width: 368px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+#midWholePart121{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #115c4c;
+    color: white;
+    width: 200px;
+    position: absolute;
+    left: 40px;
+    top: 535px;
+    padding: 12px 6px;
+    border-radius: 30px;
+    font-family: 'Allerta', sans-serif;
+    cursor: pointer;
+}
+#midWholePart121 h1{
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+
+
+#midWholePart13{
+    display: flex;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 35px;
+
+}
+
+.midWholePart13Parts{
+    display: flex;
+    width: 213px;
+}
+
+.midWholePart13Parts div img{
+    height: 70px;
+    margin-right: 8px;
+}
+
+.midWholePart13Parts div h4{
+    font-size: 20px;
+    font-family: 'Allerta', sans-serif;
+}
+
+.midWholePart13Parts div p{
+    font-size: 11px;
+    font-family: 'Abel', sans-serif;
+}
